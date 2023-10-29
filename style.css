@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Kani;
+    src: url(Fonts/Nohemi-Bold-BF6438cc587b5b5.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -131,7 +136,7 @@ body {
 
 /* Cursor */
 
- .cursor {
+.cursor {
     /* z-index: 999; */
     width: 10px;
     height: 10px;
@@ -507,7 +512,7 @@ i {
     align-items: center;
     justify-content: center;
     position: relative;
-    
+
 }
 
 .elem img {
@@ -600,10 +605,12 @@ footer .rightfooter a {
 
 /* RESPONSIVE */
 @media (max-width:600px) {
-/* header */
-.cta{
-    margin-top: 15px;
-}
+
+    /* header */
+    .cta {
+        margin-top: 15px;
+    }
+
     /* hero */
     #heading {
         font-size: 55px;
