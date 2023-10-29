@@ -298,30 +298,37 @@ i {
 }
 
 .elem {
+    align-items: center;
     position: relative;
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
     width: 100%;
-    padding: 3.5vh 0vw;
+    padding: 1vw 0vw;
     padding-right: 0;
     border-top: 1px solid var(--foreground);
     transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.elem:hover {
+    padding: 2vw;
 }
 
 .elem:hover h1 {
     color: var(--primary);
-    font-size: 3.2vw;
+    font-size: 3.5vw;
 }
 
 .elem:hover h5 {
     color: var(--primary);
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 
 .elem h1 {
-    text-transform: uppercase;
+    font-weight: 600;
+    /* text-transform: uppercase; */
     font-size: 3vw;
     color: var(--foreground);
     font-family: Nohemi;
@@ -390,8 +397,9 @@ footer .rightfooter a {
 
 
 @media (max-width:600px) {
+
     /* header */
-    .cta{
+    .cta {
         margin-top: 10px;
     }
 
