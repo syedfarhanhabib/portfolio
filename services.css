@@ -2,6 +2,7 @@
     font-family: Kanit;
     src: url(Fonts/Kanit/Kanit-Regular.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -331,6 +332,7 @@ i {
 
 
 .elem h1 {
+    text-align: center;
     font-weight: 600;
     /* text-transform: uppercase; */
     font-size: 3vw;
@@ -344,6 +346,7 @@ i {
     color: var(--foreground);
     transition: all 0.5s ease;
     font-size: 1vw;
+    text-align: center;
 }
 
 .elemlast {
@@ -407,6 +410,14 @@ footer .rightfooter a {
         margin-top: 10px;
     }
 
+    .elem {
+        text-align: center;
+    }
+
+    .elem h5 {
+        text-align: center;
+    }
+
 
 
 
@@ -420,7 +431,7 @@ footer .rightfooter a {
     }
 
     .elem img {
-        border-radius: 15%;
+        border-radius: 2vw;
         height: 80%;
         overflow: hidden;
     }
